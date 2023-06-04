@@ -30,6 +30,10 @@ class MyAppState extends ChangeNotifier {
 
   void onPressed(BuildContext context) {
     print('Change to contact page');
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => ContactPage()),
+    );
   }
 }
 
