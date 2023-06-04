@@ -43,9 +43,12 @@ class MyHomePage extends StatelessWidget {
     var appState = context.watch<MyAppState>();
 
     return Scaffold(
-      body: Column(
-        children: [
-          
+      appBar: AppBar(
+        title: Text('Voici mon app!'),
+        centerTitle: true,
+      ),
+      body: Center(
+        child:
           ElevatedButton.icon(
             onPressed: () {
               appState.onPressed(context);
@@ -53,8 +56,7 @@ class MyHomePage extends StatelessWidget {
             icon: Icon(Icons.contact_page),
             label: Text('Page contact'),
           ),
-        ],
-      ),
+      )
     );
   }
 }
