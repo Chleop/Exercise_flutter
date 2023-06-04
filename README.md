@@ -1,17 +1,8 @@
 # namer_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Ma_petite_planete_exercise
+A basic Flutter project with two pages:
+- One home page with :
+    a button to get to the contact page,
+- And one contact page with :
+    a button to get back to the previous page,
+    and a scrollable list of contacts.
