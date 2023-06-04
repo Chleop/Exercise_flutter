@@ -1,4 +1,4 @@
-# namer_app
+# Exercise Flutter
 
 A basic Flutter project with two pages:
 - One home page with :
